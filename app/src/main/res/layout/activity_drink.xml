@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cappuccino" />
+        app:srcCompat="@drawable/a_latte" />
 
     <TextView
         android:id="@+id/name"

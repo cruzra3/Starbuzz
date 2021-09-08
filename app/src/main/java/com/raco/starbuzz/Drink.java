@@ -7,9 +7,9 @@ public class Drink {
 
     //drinks is an array of Drinks
     public static final Drink[] drinks = {
-        new Drink("Latte", "A couple of espresso shots with steamed milk", R.drawable.latte),
-        new Drink("Cappuccino", "Espresso, hot milk, and a steamed milk foam", R.drawable.cappuccino),
-        new Drink("Filter", "Highest quality beans roasted and brewed fresh", R.drawable.filter)
+        new Drink("Latte", "A couple of espresso shots with steamed milk", R.drawable.a_latte),
+        new Drink("Cappuccino", "Espresso, hot milk, and a steamed milk foam", R.drawable.a_cappuccino),
+        new Drink("Filter", "Highest quality beans roasted and brewed fresh", R.drawable.a_filter)
     };
 
     //Each Drink has a name, description, and an image resource

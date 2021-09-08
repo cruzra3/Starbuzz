@@ -16,7 +16,7 @@ public class TopLevelActivity extends AppCompatActivity {
         setContentView(R.layout.activity_top_level);
         //Create an OnItemClickListener
         AdapterView.OnItemClickListener itemClickListener =
-                new AdapterView.OnItemClickListener(){
+                new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> listView,
                                             View itemView,
