@@ -35,6 +35,11 @@ public class TopLevelActivity extends AppCompatActivity {
                                         FoodCategoryActivity.class);
                                 startActivity(intent);
                                 break;
+                            case 2:
+                                intent = new Intent(TopLevelActivity.this,
+                                        StoreCategoryActivity.class);
+                                startActivity(intent);
+                                break;
                         }
                     }
                 };
