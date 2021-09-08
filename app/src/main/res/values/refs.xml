@@ -1,6 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <drawable name="a_grain_salad">a_grain_salad.png</drawable>
-    <drawable name="a_hamburger">a_hamburger.png</drawable>
-    <drawable name="a_mediterranean_salad">a_mediterranean_salad.png</drawable>
 </resources>

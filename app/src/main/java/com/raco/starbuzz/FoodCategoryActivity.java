@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -31,6 +32,7 @@ public class FoodCategoryActivity extends AppCompatActivity {
                                             View itemView,
                                             int position,
                                             long id) {
+
                         //Pass the food the user clicks on to FoodActivity
                         Intent intent = new Intent(FoodCategoryActivity.this,
                                 FoodActivity.class);

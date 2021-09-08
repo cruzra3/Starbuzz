@@ -7,9 +7,9 @@ public class Food {
 
     //foods is an array of Foods
     public static final Food[] foods = {
-            new Food("Grain Salad", "A salad made of a mix of grains", R.drawable.a_grain_salad),
-            new Food("Hamburger", "Delicious home made hamburger", R.drawable.a_hamburger),
-            new Food("Mediterranean Salad", "Mediterranean style salad with dressing", R.drawable.a_mediterranean_salad)
+            new Food("Grain Salad", "A salad made of a mix of grains", R.drawable.b_grain_salad),
+            new Food("Hamburger", "Delicious home made hamburger", R.drawable.b_hamburger),
+            new Food("Mediterranean Salad", "Mediterranean style salad with dressing", R.drawable.b_mediterranean_salad)
     };
 
     //Each Food has a name, description, and an image resource

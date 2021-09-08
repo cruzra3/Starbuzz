@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -22,10 +23,18 @@ public class TopLevelActivity extends AppCompatActivity {
                                             View itemView,
                                             int position,
                                             long id) {
-                        if (position == 0) {
-                            Intent intent = new Intent(TopLevelActivity.this,
-                                    DrinkCategoryActivity.class);
-                            startActivity(intent);
+                        Intent intent;
+                        switch(position) {
+                            case 0:
+                                intent = new Intent(TopLevelActivity.this,
+                                        DrinkCategoryActivity.class);
+                                startActivity(intent);
+                                break;
+                            case 1:
+                                intent = new Intent(TopLevelActivity.this,
+                                        FoodCategoryActivity.class);
+                                startActivity(intent);
+                                break;
                         }
                     }
                 };
