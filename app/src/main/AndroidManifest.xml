@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Starbuzz">
         <activity
+            android:name=".FoodActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FoodCategoryActivity"
+            android:exported="true" />
+        <activity
             android:name=".DrinkActivity"
             android:exported="true" />
         <activity
