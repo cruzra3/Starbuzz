@@ -8,5 +8,5 @@ public class Todo {
     //TODO: Modify top level activity logic to detect clicks in all positions and
     //      call corresponding categories
     //TODO: Create FoodActivity, StoreActivity, BookActivity, MugActivity classes and corresponding layouts
-    //TODO: Test
+    //TODO: Test Food Category Logic
 }
